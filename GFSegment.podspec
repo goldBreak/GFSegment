@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GFSegment"
-  s.version      = "0.0.1"
+  s.version      = "0.1.1"
   s.summary      = " GFSegment is`s a tool used as a 今日头条."
 
   # This description is used to generate tags and improve search results.
