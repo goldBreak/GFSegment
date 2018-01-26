@@ -50,9 +50,7 @@
     }
     
     CGSize size = self.frame.size;
-    
     size.width = CGRectGetMaxX([[self.segmentArray lastObject] frame]);
-    
     self.contentSize = size;
 }
 
@@ -99,8 +97,7 @@
     if (self.lastCell) {
         self.lastCell.selected = NO;
     }
-    
-    
+   
     [self.lastCell setTitleColor:self.defaultColor forState:UIControlStateNormal];
     [self.lastCell setTitleColor:self.hilightColor forState:UIControlStateSelected];
     

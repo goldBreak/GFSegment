@@ -65,7 +65,7 @@
 - (GFSegController *)senControler {
     if (!_senControler) {
         _senControler = [[GFSegController alloc] init];
-        _senControler.frame = CGRectMake(0, 64., self.view.frame.size.width, 50.);
+        _senControler.frame = CGRectMake(0, 0, self.view.frame.size.width, 50.);
     }
     return _senControler;
 }

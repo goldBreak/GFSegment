@@ -236,7 +236,7 @@
 - (SegmentControl *)segmentControl {
     
     if (!_segmentControl) {
-        _segmentControl = [[SegmentControl alloc] initWithFrame:CGRectMake(0, 20, self.frame.size.width, 50)];
+        _segmentControl = [[SegmentControl alloc] initWithFrame:self.frame];
         _segmentControl.segDelegate = self;
     }
     return _segmentControl;
