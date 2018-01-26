@@ -13,6 +13,11 @@
 		5917DA10201AD0BB00F4C0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5917DA0F201AD0BB00F4C0C2 /* Assets.xcassets */; };
 		5917DA13201AD0BB00F4C0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5917DA11201AD0BB00F4C0C2 /* LaunchScreen.storyboard */; };
 		5917DA16201AD0BB00F4C0C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917DA15201AD0BB00F4C0C2 /* main.m */; };
+		5917DA25201ADAFC00F4C0C2 /* GFSegController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917DA1E201ADAFC00F4C0C2 /* GFSegController.m */; };
+		5917DA26201ADAFC00F4C0C2 /* GFSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917DA20201ADAFC00F4C0C2 /* GFSegmentCell.m */; };
+		5917DA27201ADAFC00F4C0C2 /* GFSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917DA22201ADAFC00F4C0C2 /* GFSegmentControl.m */; };
+		5917DA28201ADAFC00F4C0C2 /* UIColor+GFUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917DA24201ADAFC00F4C0C2 /* UIColor+GFUIColor.m */; };
+		5917DA2B201ADB3C00F4C0C2 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917DA2A201ADB3C00F4C0C2 /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		5917DA12201AD0BB00F4C0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5917DA14201AD0BB00F4C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5917DA15201AD0BB00F4C0C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5917DA1D201ADAFC00F4C0C2 /* GFSegController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSegController.h; sourceTree = "<group>"; };
+		5917DA1E201ADAFC00F4C0C2 /* GFSegController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSegController.m; sourceTree = "<group>"; };
+		5917DA1F201ADAFC00F4C0C2 /* GFSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSegmentCell.h; sourceTree = "<group>"; };
+		5917DA20201ADAFC00F4C0C2 /* GFSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSegmentCell.m; sourceTree = "<group>"; };
+		5917DA21201ADAFC00F4C0C2 /* GFSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSegmentControl.h; sourceTree = "<group>"; };
+		5917DA22201ADAFC00F4C0C2 /* GFSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSegmentControl.m; sourceTree = "<group>"; };
+		5917DA23201ADAFC00F4C0C2 /* UIColor+GFUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GFUIColor.h"; sourceTree = "<group>"; };
+		5917DA24201ADAFC00F4C0C2 /* UIColor+GFUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GFUIColor.m"; sourceTree = "<group>"; };
+		5917DA29201ADB3C00F4C0C2 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		5917DA2A201ADB3C00F4C0C2 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,7 @@
 		5917D9FA201AD0BB00F4C0C2 = {
 			isa = PBXGroup;
 			children = (
+				5917DA1C201ADAFC00F4C0C2 /* SegmentTool */,
 				5917DA05201AD0BB00F4C0C2 /* demo */,
 				5917DA04201AD0BB00F4C0C2 /* Products */,
 			);
@@ -62,6 +78,8 @@
 				5917DA07201AD0BB00F4C0C2 /* AppDelegate.m */,
 				5917DA09201AD0BB00F4C0C2 /* ViewController.h */,
 				5917DA0A201AD0BB00F4C0C2 /* ViewController.m */,
+				5917DA29201ADB3C00F4C0C2 /* SubViewController.h */,
+				5917DA2A201ADB3C00F4C0C2 /* SubViewController.m */,
 				5917DA0C201AD0BB00F4C0C2 /* Main.storyboard */,
 				5917DA0F201AD0BB00F4C0C2 /* Assets.xcassets */,
 				5917DA11201AD0BB00F4C0C2 /* LaunchScreen.storyboard */,
@@ -69,6 +87,22 @@
 				5917DA15201AD0BB00F4C0C2 /* main.m */,
 			);
 			path = demo;
+			sourceTree = "<group>";
+		};
+		5917DA1C201ADAFC00F4C0C2 /* SegmentTool */ = {
+			isa = PBXGroup;
+			children = (
+				5917DA1D201ADAFC00F4C0C2 /* GFSegController.h */,
+				5917DA1E201ADAFC00F4C0C2 /* GFSegController.m */,
+				5917DA1F201ADAFC00F4C0C2 /* GFSegmentCell.h */,
+				5917DA20201ADAFC00F4C0C2 /* GFSegmentCell.m */,
+				5917DA21201ADAFC00F4C0C2 /* GFSegmentControl.h */,
+				5917DA22201ADAFC00F4C0C2 /* GFSegmentControl.m */,
+				5917DA23201ADAFC00F4C0C2 /* UIColor+GFUIColor.h */,
+				5917DA24201ADAFC00F4C0C2 /* UIColor+GFUIColor.m */,
+			);
+			name = SegmentTool;
+			path = ../SegmentTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5917DA25201ADAFC00F4C0C2 /* GFSegController.m in Sources */,
+				5917DA28201ADAFC00F4C0C2 /* UIColor+GFUIColor.m in Sources */,
 				5917DA0B201AD0BB00F4C0C2 /* ViewController.m in Sources */,
 				5917DA16201AD0BB00F4C0C2 /* main.m in Sources */,
 				5917DA08201AD0BB00F4C0C2 /* AppDelegate.m in Sources */,
+				5917DA27201ADAFC00F4C0C2 /* GFSegmentControl.m in Sources */,
+				5917DA26201ADAFC00F4C0C2 /* GFSegmentCell.m in Sources */,
+				5917DA2B201ADB3C00F4C0C2 /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +320,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYTJAT486P;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GF.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,10 +335,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYTJAT486P;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GF.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
